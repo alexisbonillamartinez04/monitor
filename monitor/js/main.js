@@ -5,7 +5,7 @@ function callApiRequest() {
   // Hacer una petición para un usuario con ID especifico
   axios
     .get(
-      "http://localhost/iot-car-control/back-end/apis/getRegistro.php")
+      "https://3.134.92.20/iot-car/back-end/apis/getRegistro.php")
     .then(function (response) {
       // manejar respuesta exitosa
 
